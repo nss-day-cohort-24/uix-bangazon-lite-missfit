@@ -29,5 +29,9 @@
   "bugs": {
     "url": "https://github.com/nss-day-cohort-24/uix-bangazon-lite-missfit/issues"
   },
-  "homepage": "https://github.com/nss-day-cohort-24/uix-bangazon-lite-missfit#readme"
+  "homepage": "https://github.com/nss-day-cohort-24/uix-bangazon-lite-missfit#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "bootstrap-grid": "^3.0.1"
+  }
 }
