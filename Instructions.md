@@ -31,12 +31,13 @@ Project Mangers will work with Product Owner regarding deadlines for "group defi
 * CSS library
 
 ## Final Deliverables
-* Persona
+* Personas
 * Challenge statement
 * Wireframes/Prototype
 * Styleguide
 * Useability testing/results
 * Comprehensive README
 * App
+* Final Presentation Deck – [Sample](https://docs.google.com/presentation/d/1ch3_3nIyruHuDURT0aYiFUeuygF0m2Fj-WI8Q4BTYOQ)
 
 
