@@ -1,0 +1,14 @@
+{
+    "users" : [
+        {
+            "userid" : "exampleuser",
+            "userpw" : "Thisisapassword",
+            "useremail" : "lapinell@gmail.com",
+            "userpreferences" : [
+                {
+                    "shippingaddress" : "1234 Red Road"
+                }
+            ]
+        }
+    ]
+}

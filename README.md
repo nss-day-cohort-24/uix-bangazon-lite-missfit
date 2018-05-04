@@ -6,13 +6,13 @@ The Imaginarium is an online marketplace for crafty entrepreneurs to sell produc
 ## How Do I Join?
 * As a shopper..
 * As a vendor...
+## Instructions for Installation
+Coming Soon
 ## Technology Requirements
-
 Production Dependencies
 * React
 * JSON server
 * CSS library
-
 Developer Dependencies
 * Styleguidist
 * Webpack
