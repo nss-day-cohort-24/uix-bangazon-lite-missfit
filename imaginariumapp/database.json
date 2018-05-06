@@ -1,14 +1,84 @@
 {
-    "users" : [
+  "users": [
+    {
+      "id": "1",
+      "name": "Laura Pinell",
+      "email": "lapinell@gmail.com",
+      "password": "ABCDEFG",
+      "shippingAddresses": [
+        "1234 Red Road, Somewhere, TN 37444",
+        "5678 Blue Road, Somewhere Else, TN 37222"
+      ],
+      "billingAddresses": [
+        "1234 Red Road, Somewhere, TN 37444"
+      ],
+      "seller": false,
+      "phoneNumbers": [
+        "4239140886",
+        "6154082747"
+      ],
+      "paymentMethods": [
         {
-            "userid" : "exampleuser",
-            "userpw" : "Thisisapassword",
-            "useremail" : "lapinell@gmail.com",
-            "userpreferences" : [
-                {
-                    "shippingaddress" : "1234 Red Road"
-                }
-            ]
+          "paymentType": "card",
+          "cardCarrier": "Visa",
+          "cardNumber": 1234567891011121,
+          "expiration": "01-2001",
+          "ccv": 987
+        },
+        {
+          "paymentType": "paypal",
+          "cardCarrier": "PayPal",
+          "cardNumber": 1234567891011121,
+          "expiration": "01-2002",
+          "ccv": 765
         }
-    ]
+      ]
+    },
+    {
+      "id": "pgC3AHh"
+    },
+    {
+      "id": "OMzSuFG"
+    },
+    {
+      "name": "Solomon Pinell",
+      "shippingAddresses": [],
+      "billingAddresses": [],
+      "seller": true,
+      "phoneNumbers": [
+        4239140887
+      ],
+      "id": "1DtLSx~"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "productTitle": "Example Product",
+      "productDescription": "This is the description of this example product. It is a fantastic example product. You will love this example product like no other example product.",
+      "productPrice": "$1.00",
+      "productAvailable": 50,
+      "productImages": [
+        "../images/U-001/P-001/Image1URL.jpeg",
+        "../images/U-001/P-001/Image2URL.jpeg"
+      ],
+      "userid": 1
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "dateCreated": "date",
+      "dateUpdated": "date",
+      "userID": "U-001",
+      "products": [
+        {
+          "productID": "P-001",
+          "productQuantity": 5
+        }
+      ],
+      "subtotal": "$5.00"
+    }
+  ],
+  "orderDetails": []
 }
