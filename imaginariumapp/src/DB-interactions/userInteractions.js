@@ -14,6 +14,15 @@ export const CreateUser = (userEmail, userPassword) => {
     })
 };
 
+// export const EditUser = (userid, userchangekey, userchangevalue) => {
+//     axios.put(
+//         DatabaseURL('users/' + userid + '/'),
+//         {
+
+//         }
+//     )
+// };
+
 export const DeleteUser = (userid) => {
     axios.delete(
         DatabaseURL('users/'+ userid + '/')
