@@ -1,10 +1,11 @@
 import React from 'react';
-import WebFont from 'webfontloader';
+// import WebFont from 'webfontloader';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-grid.css';
 
 export default function ProductCard ({imageURL, imageAlt, productTitle, productDescription, productPage}) {
     return(
+        <div class="col-sm-3"> 
         <div class="card">
             <img class="card-img-top" src={imageURL} alt={imageAlt} />
 
@@ -13,6 +14,7 @@ export default function ProductCard ({imageURL, imageAlt, productTitle, productD
                 <p class="card-text">{productDescription}</p>
                 <a href={productPage} class="btn btn-primary">View</a>
             </div>
+        </div>
         </div>
     );
 };
