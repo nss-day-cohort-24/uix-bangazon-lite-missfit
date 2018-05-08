@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-grid.css';
 
 
+export default function NavSearch () {
     return (
     <form className="form-inline">
         <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
