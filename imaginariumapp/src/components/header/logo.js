@@ -12,10 +12,10 @@ WebFont.load({
 
 export default function Logo ({color, size, transform}) {
     const styles = {
-        color,
+        color: Logo.colors[color],
         fontSize: Logo.sizes[size],
         'text-transform': 'uppercase',
-        'font-family': 'Crimson Text'
+        'font-family': 'Crimson Text Semi-Bold'
     };
 
     return (
@@ -31,7 +31,7 @@ Logo.propTypes = {
 };
 
 Logo.defaultProps = {
-    color: 'rgb(208,168,10)',
+    color: 'gold',
     size: 'normal'
 };
 
@@ -40,3 +40,9 @@ Logo.sizes = {
     normal: '20px',
     large: '28px'
 };
+
+Logo.colors = {
+    gold: 'rgb(208,168,10)',
+    orange: 'rgb(254,134,55)',
+    blueGray: 'rgb(44,48,54)',
+}
