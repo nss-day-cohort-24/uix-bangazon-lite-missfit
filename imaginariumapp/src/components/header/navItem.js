@@ -1,5 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-grid.css';
 
 export default function NavItem ({linkTitle, linkURL}) {
 
