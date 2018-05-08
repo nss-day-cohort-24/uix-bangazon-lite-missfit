@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import PageHeader from './components/header/header';
+import Jumbotron from './components/homePage/jumbotron';
+import ProductsPreview from './components/homePage/productPreview'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-grid.css';
 import './App.css';
@@ -9,9 +11,8 @@ class App extends Component {
     return (
       <div className="App">
         <PageHeader />
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Jumbotron />
+        <ProductsPreview />
       </div>
     );
   }
