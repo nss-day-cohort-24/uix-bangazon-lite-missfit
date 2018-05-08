@@ -1,0 +1,5 @@
+Page Header:
+
+```jsx
+<PageHeader />
+```
