@@ -1,11 +1,8 @@
 import axios from 'axios';
 import DatabaseURL from './getDatabase';
 
-export const CreateUser = (userEmail, userPassword) => {
-    axios.post(DatabaseURL('users/'), {
-        "email": userEmail,
-        "password": userPassword
-    })
+export const CreateUser = (newUserObj) => {
+    axios.post(DatabaseURL('users/'), newUserObj)
     .then(function(response) {
         console.log('we added the user:', response);
     })
