@@ -2,6 +2,7 @@ import React from 'react';
 // import WebFont from 'webfontloader';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-grid.css';
+import './productPreview.css';
 import ProductCard from './productCard';
 import Bunnies from '../../images/willowynn/bunnies.jpg';
 import Quilt from '../../images/lukehaynes/virginiawilcox32.jpg';
@@ -14,7 +15,7 @@ import Quilt from '../../images/lukehaynes/virginiawilcox32.jpg';
 
 export default function ProductsPreview () {
         return (
-            <div>
+            <div id="productPreview">
         <div className="row">  
                 <h2>Newest Products</h2>
                 </div>
