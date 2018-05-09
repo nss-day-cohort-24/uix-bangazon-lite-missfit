@@ -3,11 +3,12 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-grid.css';
 import './productPreview.css';
+import { GetProducts } from '../../DB-interactions/product';
 import ProductCard from './productCard';
 import Bunnies from '../../images/willowynn/bunnies.jpg';
 import Quilt from '../../images/lukehaynes/virginiawilcox32.jpg';
 
-
+GetProducts();
 // import products array
 // get length of array
 // get the last 20 products in the array
