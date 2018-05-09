@@ -1,6 +1,16 @@
 import axios from 'axios';
 import DatabaseURL from './getDatabase';
 
+export const GetProducts = () => {
+    axios.get(DatabaseURL('products/'))
+    .then(function(response) {
+        console.log('the existing products are:', response);
+    })
+    .catch(function(error) {
+        console.log('there was an error getting the products:', error);
+    })
+};
+
 export const CreateProduct = (title, description, price, quantity) => {
     axios.post(DatabaseURL('products/'), {
         "productTitle": title,
