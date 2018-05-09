@@ -15,10 +15,10 @@ import Quilt from '../../images/lukehaynes/virginiawilcox32.jpg';
 export default function ProductsPreview () {
         return (
             <div>
-        <div class="row">  
+        <div className="row">  
                 <h2>Newest Products</h2>
                 </div>
-                <div class="row">
+                <div className="row">
                     <ProductCard imageURL={Bunnies} imageAlt="Willowynn hand-made stuffed bunnies" productTitle="Stuffed Bunnies" productDescription="Handcrafted and designed by Willowynn for children ages 3 and older" />
                     <ProductCard imageURL={Quilt} imageAlt="Virginia Wilcox Quilt" productTitle="Virginia Wilcox Quilt" productDescription="Handcrafted and designed by Luke Haynes" />
                     <ProductCard imageURL={Bunnies} imageAlt="Willowynn hand-made stuffed bunnies" productTitle="Stuffed Bunnies" productDescription="Handcrafted and designed by Willowynn for children ages 3 and older" />

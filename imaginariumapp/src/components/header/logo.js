@@ -14,8 +14,8 @@ export default function Logo ({color, size, transform}) {
     const styles = {
         color: Logo.colors[color],
         fontSize: Logo.sizes[size],
-        'text-transform': 'uppercase',
-        'font-family': 'Crimson Text Semi-Bold'
+        'textTransform': 'uppercase',
+        'fontFamily': 'Crimson Text Semi-Bold'
     };
 
     return (

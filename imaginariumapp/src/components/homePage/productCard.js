@@ -5,14 +5,14 @@ import 'bootstrap/dist/css/bootstrap-grid.css';
 
 export default function ProductCard ({imageURL, imageAlt, productTitle, productDescription, productPage}) {
     return(
-        <div class="col-sm-3"> 
-        <div class="card">
-            <img class="card-img-top" src={imageURL} alt={imageAlt} />
+        <div className="col-sm-3"> 
+        <div className="card">
+            <img className="card-img-top" src={imageURL} alt={imageAlt} />
 
-            <div class="card-body">
-                <h5 class="card-title">{productTitle}</h5>
-                <p class="card-text">{productDescription}</p>
-                <a href={productPage} class="btn btn-primary">View</a>
+            <div className="card-body">
+                <h5 className="card-title">{productTitle}</h5>
+                <p className="card-text">{productDescription}</p>
+                <a href={productPage} className="btn btn-primary">View</a>
             </div>
         </div>
         </div>
