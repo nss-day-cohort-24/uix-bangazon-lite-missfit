@@ -11,14 +11,20 @@ export const CreateUser = (newUserObj) => {
     })
 };
 
-// export const EditUser = (userid, userchangekey, userchangevalue) => {
-//     axios.put(
-//         DatabaseURL('users/' + userid + '/'),
-//         {
-
-//         }
-//     )
-// };
+export const GetUser = (userEmail) => {
+    console.log('Getting this user:', userEmail);
+    axios.get(DatabaseURL('users/?email=' + userEmail))
+    .then(function(response) {
+        if (response.data.length === 0) {
+            console.log('user does not exist');
+        } else {
+        console.log('We got this user:', response.data);
+        }
+    })
+    .catch(function(error) {
+        console.log('We got an error when trying to get the user:', error)
+    })
+};
 
 export const DeleteUser = (userid) => {
     axios.delete(
