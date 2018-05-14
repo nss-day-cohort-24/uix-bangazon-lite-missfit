@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-grid.css';
 import Logo from './logo';
-import NavItem from './navItem';
+import { NavItem, SignIn } from './navItem';
 import NavSearch from './search';
 
 export default function Navigation () {
@@ -16,7 +16,7 @@ export default function Navigation () {
                         <ul className="navbar-nav mr-auto">
                             <NavItem linkURL="/index.html" linkTitle="Home" />
                             <NavItem linkURL="#" linkTitle="Sell" />
-                            <NavItem linkURL="#" linkTitle="Sign In" />
+                            <SignIn />
                             <NavItem linkURL="/cart.html" linkTitle="Cart" />
                         </ul>
                         <NavSearch />
