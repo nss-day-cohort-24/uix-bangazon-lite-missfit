@@ -7,6 +7,7 @@ import 'jquery/dist/jquery.slim.js';
 import 'popper.js/dist/umd/popper.min.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import { RegistrationForm } from './registrationForm';
+import { SignInForm } from './signinForm';
 
 export default function SignInModal (){
     return (
@@ -27,21 +28,7 @@ export default function SignInModal (){
                         </div>
                     </nav>
                     <div className="tab-content" id="nav-tabContent">
-                        <div className="tab-pane fade show active" id="nav-signIn" role="tabpanel" aria-labelledby="nav-signIn-tab">
-                            <form>
-                                <div className="form-group">
-                                <label htmlFor="exampleInputEmail1">Email address</label>
-                                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                                </div>
-                                <div className="form-group">
-                                <label htmlFor="exampleInputPassword1">Password</label>
-                                <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
-                                </div>
-                            </form>
-                            <div className="modal-footer">
-                                <button type="button" className="btn btn-primary">Sign In</button>
-                            </div>
-                        </div>
+                        <SignInForm />
                         <RegistrationForm />
                     </div>
                 </div>
